@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-9);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -152,9 +152,10 @@ p {
   border-radius: var(--radius);
 }
 .btn:hover {
-  color: var(--clr-primary-5);
-  background: var(--clr-primary-8);
-  border-color: var(--clr-primary-8);
+  color: var(--clr-black);
+  background: var(--clr-white);
+  border-color: var(--clr-black);
+  font-weight: bolder;
 }
 /* section */
 .section {
